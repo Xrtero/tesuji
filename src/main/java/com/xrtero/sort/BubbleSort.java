@@ -16,6 +16,7 @@ public class BubbleSort {
     public static void sort(int[] arr){
        int n = arr.length;
        boolean isSwap = true;
+       // 使用flag 可以减少比较次数
        while(isSwap){
            isSwap = false;
            for(int i=0;i<n-1;i++){
