@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d19421-24af-4133-ad60-4c17f7e233ed" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xrtero/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xrtero/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xrtero/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xrtero/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xrtero/sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +194,7 @@
       <workItem from="1642290863505" duration="23000" />
       <workItem from="1642340690072" duration="1533000" />
       <workItem from="1642390198731" duration="4401000" />
-      <workItem from="1642917755300" duration="568000" />
+      <workItem from="1642917755300" duration="1980000" />
     </task>
     <servers />
   </component>
