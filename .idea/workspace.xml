@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d19421-24af-4133-ad60-4c17f7e233ed" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xrtero/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xrtero/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xrtero/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xrtero/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xrtero/sort/SelectionSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xrtero/sort/BubbleSort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xrtero/sort/InsertSort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xrtero/sort/SelectionSort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xrtero/sort/CountingSort.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
@@ -71,14 +92,13 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38128772" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="应用程序.SelectionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.BubbleSort" />
+  <component name="RunManager" selected="JUnit.SortTest.insertSortTest (2)">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tesuji" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +106,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xrtero.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SelectionSort" />
+    <configuration name="SortTest.insertSortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tesuji" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +121,69 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xrtero.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SortTest" />
+      <option name="METHOD_NAME" value="insertSortTest(int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.insertSortTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tesuji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xrtero.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xrtero.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SortTest" />
+      <option name="METHOD_NAME" value="insertSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.insertSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tesuji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xrtero.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xrtero.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SortTest" />
+      <option name="METHOD_NAME" value="insertSortTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.testWithRangeMethodSource (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tesuji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xrtero.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xrtero.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.xrtero.sort.SortTest" />
+      <option name="METHOD_NAME" value="testWithRangeMethodSource(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SelectionSort" />
-        <item itemvalue="应用程序.BubbleSort" />
+        <item itemvalue="JUnit.SortTest.testWithRangeMethodSource (3)" />
+        <item itemvalue="JUnit.SortTest.insertSortTest" />
+        <item itemvalue="JUnit.SortTest.insertSortTest (2)" />
+        <item itemvalue="JUnit.SortTest.insertSortTest (1)" />
+        <item itemvalue="JUnit.SortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +198,11 @@
       <workItem from="1641487289443" duration="72000" />
       <workItem from="1641487428988" duration="696000" />
       <workItem from="1641632670691" duration="3296000" />
-      <workItem from="1641636489023" duration="3753000" />
+      <workItem from="1641636489023" duration="11526000" />
+      <workItem from="1642290863505" duration="23000" />
+      <workItem from="1642340690072" duration="1533000" />
+      <workItem from="1642390198731" duration="4401000" />
+      <workItem from="1642917755300" duration="568000" />
     </task>
     <servers />
   </component>
@@ -141,5 +222,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../java/jdk/jdk-11.0.10/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../java/jdk/jdk-8u271/src.zip!/java/util/ArrayList.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

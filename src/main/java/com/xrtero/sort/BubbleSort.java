@@ -13,7 +13,7 @@ public class BubbleSort {
      *
      * @param arr
      */
-    public static void sort(int[] arr){
+    public static void work(int[] arr){
        int n = arr.length;
        boolean isSwap = true;
        // 使用flag 可以减少比较次数
@@ -32,15 +32,6 @@ public class BubbleSort {
 
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{4,2,1,3};
-        sort(arr);
-        for(int i=0;i<arr.length;i++){
-            System.out.printf(" " + arr[i]);
-        }
-        System.out.println("\n");
-
-    }
 
 
 

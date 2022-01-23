@@ -28,11 +28,4 @@ public class SelectionSort {
         }
     }
 
-    public static void main(String[] args) {
-        // 测试
-        int[] arr = new int[]{4,3,1,2};
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
-
-    }
 }
